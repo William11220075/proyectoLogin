@@ -1,0 +1,21 @@
+{
+    "php.debug.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "[rocket-mvbasic]": {
+        "editor.codeLens": false
+    },
+    "files.associations": {
+        "*.js": "javascript",
+        "**/.rmv/config/*.json": "jsonc"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.rmv/catalog/**": true,
+        "*/_*": false
+    }
+}

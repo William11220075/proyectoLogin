@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet"> <!-- Asegúrate de incluir la fuente -->
+</head>
+<body>
+    <div class="formulario">
+        <h1>Recuperar Contraseña</h1>
+        <form id="formRecuperar" method="post" action="recuperar.php"> <!-- Cambia la acción a tu archivo PHP -->
+            <div class="email">
+                <input type="email" required id="email" name="email" placeholder=" "> <!-- Placeholder para el efecto de etiqueta -->
+                <label>Correo electrónico</label>
+            </div>
+            <input type="submit" value="Enviar" id="btnEnviar">
+        </form>    
+        <div class="volver">
+            <a href="index.html">Volver al inicio de sesión</a>
+        </div>
+    </div>     
+</body>
+</html>

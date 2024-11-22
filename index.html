@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Inicio de sesión</h1>
+        <form id="formLogin" method="post" action="login.php">
+            <div class="username">
+                <input type="text" required id="username" name="username" placeholder=" ">
+                <label>Correo del usuario</label>
+            </div>
+            <div class="contraseña">
+                <input type="password" required id="password" name="password" placeholder=" ">
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar">¿Olvidó su contraseña? <a href="recuperar-contraseña.html">Recuperar</a></div>
+            <input type="submit" value="Iniciar" id="btnIniciar">
+            <div class="Registrarse">
+                Quiero hacer el <a href="registro.html" class="registro-link">registro</a>
+            </div>
+        </form>
+           
+    </div>     
+</body>

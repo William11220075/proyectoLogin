@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet"> <!-- Asegúrate de incluir la fuente -->
+</head>
+<body>
+    <div class="formulario">
+        <h1>Registro</h1>
+        <form id="formRegistro" method="post" action="registro.php"> <!-- Asegúrate de que la acción apunte a registro.php -->
+            <div class="email">
+                <input type="email" required id="email" name="email" placeholder=" ">
+                <label>Correo Electrónico</label>
+            </div>
+            <div class="username">
+                <input type="text" required id="username" name="username" placeholder=" ">
+                <label>Nombre del Usuario</label>
+            </div>
+            <div class="contraseña">
+                <input type="password" required id="password" name="password" placeholder=" ">
+                <label>Contraseña</label>
+            </div>
+            <input type="submit" value="Registrar" id="btnRegistrar">
+        </form>    
+        <div class="volver">
+            <a href="index.html">Volver al inicio de sesión</a>
+        </div>
+    </div>     
+</body>
+</html>
